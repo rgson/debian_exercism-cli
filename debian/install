@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+exercism => bin/exercism
+shell/exercism_completion.bash => usr/share/bash-completion/completions/exercism
+shell/exercism_completion.zsh => usr/share/zsh/vendor-completions/_exercism
+shell/exercism.fish => usr/share/fish/vendor_completions.d/exercism.fish
